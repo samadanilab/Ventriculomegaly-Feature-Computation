@@ -9,7 +9,7 @@ This repository provides the computational framework to evaluate a set of eight 
 
 This pipeline works best when utilized alongside our previously open-sourced tool: **[AC-PC Prediction Framework for Head CT](https://github.com/samadanilab/AC-PC-Landmark-Prediction)**. It is highly recommended that you process your scans through that pipeline first to automatically predict the AC and PC coordinates, as these landmarks are strictly required by this repository to guide ROI placement and slice selection.
 
-To facilitate the head tilt correction, this repository provides a Jupyter Notebook to perform the AC-PC and midline alignment. 
+To facilitate the head tilt correction, we will include a Jupyter Notebook to perform the AC-PC and midline alignment using 3D-Slicer, shortly to this repository. 
 * **Note on Midline Alignment:** Because our previous framework does not include midline localization, users must manually provide a set of 20 mid-sagittal-plane points to achieve midline alignment. This manual localization step takes under one minute per scan and is required before running the provided alignment notebook.
 
 ## Dataset Context & Compatibility
