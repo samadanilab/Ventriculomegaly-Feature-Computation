@@ -29,7 +29,7 @@ Our evaluations were performed on a Linux machine (Ubuntu 24.04.3 LTS) with the 
 ## Illustration of Computed Features
 Below are representative CT scans of patients with NPH, AD, HC, and PTVL showcasing the computed ventriculomegaly features.
 
-![Ventriculomegaly-Feature-Computation](assets/Fig2_KeyMeasures.jpg)
+![Ventriculomegaly-Feature-Computation](assets/Figure2_KeyMeasures.jpg)
 
 ## Data Availability Disclaimer
 As this framework was originally developed using data from the Dept. of Veterans Affairs (VA), we are unable to publicly release the internal VA head CT scans due to patient privacy regulations and strict data security policies. However, we provide the complete source code and a detailed step-by-step tutorial to enable researchers to extract these features on their own datasets.
